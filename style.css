@@ -1,0 +1,639 @@
+ body{font-family: 'Montserrat', sans-serif;}
+ 
+ 
+/***************************
+            Navbar
+****************************/
+.navbar {
+    -webkit-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+}
+
+.navbar.navcolor {
+    -webkit-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+    padding: 10px 0;
+    background: #fff;
+    -webkit-box-shadow:  0px 0px 12px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.15);
+}
+
+.navbar.navcolor .nav-link {
+    color: #1f1e1e;
+    font-weight: 500;
+}
+.n-line{border-bottom: 1px solid #ffffff4a;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.navbar.navcolor .n-line{padding-top: 10px; padding-bottom: 10px;}
+.navbar.navcolor .l-black{display: block;}
+.navbar.navcolor .l-white{display: none;}
+.navbar .l-black{display: none;}
+.navbar .l-white{display: block;}
+
+.dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+	top: 141%;
+}
+
+.designby{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AFB0B1;
+    text-align: right;
+    padding-top: 0px;
+}
+
+
+.dropdown-item{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 19px;
+color: #000000;
+border: 1px solid #F2F2F2;
+
+}
+ a.nav-link:hover{color:#E7272D !important;}
+  a.nav-link.active{color:#E7272D !important;}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar.navcolor .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#666' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.vision-text{	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 117px;
+	line-height: 117px;
+	text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+
+    background-image:linear-gradient(to right, #E7272D , #1FAFED);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+display: inline-block;
+
+} 
+
+.br20px{border-radius:20px;border: 3px solid #fff;
+    box-shadow: 0 3px 20px rgb(62 65 95 / 20%);
+    color: #fff;}
+/***************************
+        Backtotop
+****************************/
+
+#backtotop {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    display: none;
+}
+
+#backtotop i {
+    color: #6384ff;
+}
+
+#backtotop i:hover {
+    cursor: pointer;
+}
+
+.certificate-title{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 22px;
+color: #000000;
+}
+
+.certifi-bg{
+box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.03);
+border-radius: 14px;
+padding:15px;
+border: 1px solid #F4F4F4;
+}
+
+.masthead {
+  height: 450px;
+   min-height: 450px;
+  background-image: url('img/aerial-view-container-cargo-ship-sea.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.ourteamhead {
+  height: 450px;
+   min-height: 450px;
+  background-image: url('img/our-team-banner.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.ourvalue-head{
+  height: 450px;
+  min-height: 450px;
+  background-image: url('img/our-values.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.contactus-head{
+  height: 450px;
+  min-height: 450px;
+  background-image: url('img/contact-banner.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.certificate-head{
+  height: 450px;
+  min-height: 450px;
+  background-image: url('img/certificate-banner.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.career-head{
+  height: 450px;
+  min-height: 450px;
+  background-image: url('img/car-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.ihm-head{
+  height: 450px;
+  min-height: 450px;
+  background-image: url('img/ihm.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.join-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+	
+}
+
+.footerhead{
+  height: 290px;
+  min-height: 290px;
+  background: url('img/footer-bg.jpg') #31373F;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.page-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+margin-bottom:6px;
+}
+.redline{
+	padding-left:8px;
+ }
+.lead{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 45px;
+color: #FFFFFF;
+}
+
+.about-company-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 28px;
+color: #E7272D;
+background: url('img/ABOUT-OUR-COMPANY.png')no-repeat;
+line-height: 54px;
+padding-left: 22px;
+}
+.our-team-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 28px;
+color: #E7272D;
+background: url('img/MeetourTeam.png')no-repeat;
+line-height: 54px;
+padding-left: 22px;
+}
+.our-values-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 28px;
+color: #E7272D;
+background: url('img/our-values-title.png')no-repeat;
+line-height: 54px;
+padding-left: 22px;
+}
+.contact-us-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 28px;
+color: #E7272D;
+background: url('img/where-we-are.png')no-repeat;
+line-height: 54px;
+padding-left: 22px;
+}
+.sec-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+color: #E7272D;
+line-height: 18px;
+position:absolute;
+padding-left: 22px;
+}
+.career-title{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 28px;
+	color: #E7272D;
+	background: url('img/career.png')no-repeat;
+	line-height: 54px;
+	padding-left: 22px;
+	
+}
+
+
+p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 1.4rem;
+}
+.expand-bg{background: url('img/bg-section-06.png')repeat-x 0px 92px ;}
+.expand-bg-c{background: url('img/bg-section.png')repeat-x 0px 0px ;}
+.red-box{background: #E7272D;
+border-radius: 20px;min-height:306px;}
+.red-vector{
+    right: 0px;
+    top: 48px;
+	z-index:0;
+}
+.cbox-txt{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 58px;
+	color: #000000;
+	background: rgba(255, 255, 255, 0.78);
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.03);
+border-radius: 14px;
+}
+.cbox-txt2{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height:18px;
+	color: #000000;
+	background: rgba(255, 255, 255, 0.78);
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.03);
+border-radius: 14px;
+min-height:90px;
+}
+.red-box-caption{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 62px;
+text-align: center;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+z-index:9;
+position:relative;
+padding-top:22px;
+
+}
+.red-box-content{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+z-index:9;
+position:relative;
+padding-top: 7px;
+}
+.red-box-caption-c{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+padding-top:29px;
+}
+.red-box-content-c{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 11px;
+line-height:58px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.red-box-content-c a{
+	color: #FFFFFF;
+	text-decoration:underline !important;
+}
+
+.red-vector2 {
+    right: 29px;
+    top: 141px;
+    z-index: 0;
+}
+.copyright{
+      font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-top: 68px;
+    padding-bottom: 22px;
+}
+.team-name{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 24px;
+color: #000000;
+}
+.team-postion{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #E7272D;
+}
+
+.dotimg{
+    position: absolute;
+    right: -134px;
+    bottom: -36px;
+    z-index: -1;
+}
+.dotimgl{
+    position: absolute;
+    left: -134px;
+    bottom: -36px;
+    z-index: -1;
+}
+.dotimg2{
+    position: absolute;
+    right: 0px;
+    bottom:-328px;
+    z-index: -1;
+}
+
+ul.ourvalue-list{
+	padding-left:0px;
+}
+
+ul.ourvalue-list li{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #000000;
+padding-bottom:20px;	
+list-style:none;
+
+}
+
+ul.ourvalue-list li{ background:url('img/bullet.png')no-repeat  0px 8px ;    padding-left: 35px;}
+
+.bg-ship{background: url('img/ouvalue-ship.png')no-repeat right ;}
+.expand-bg-2 {
+    background: url(img/bg-section-06.png)repeat-x center 125px;
+}
+.rounded{border-radius:12px !important;}
+.contact-email{
+		background: #FFFFFF;
+		border: 1px solid #F4F4F4;
+		box-sizing: border-box;
+		box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.03);
+		border-radius: 14px;
+		min-height: 58px;
+	}
+.contact-email{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;		
+		color: #000000;
+		line-height: 58px;
+		text-align:center;
+
+	}
+.contact-email a{
+		text-decoration:underline;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 18px;
+		color: #000000;
+	}
+.contact-name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 24px;
+	color: #000000;
+	padding-bottom:0px;
+	    margin-bottom: 9px;
+	
+}
+.contact-postion{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 24px;
+	color: #E7272D;
+	padding-bottom:0px;
+	margin-bottom: 6px;
+}
+.contact-address{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #000000;
+}
+.add-bg{
+	background: #FFFFFF;
+border: 1px solid #F4F4F4;
+box-sizing: border-box;
+box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.03);
+border-radius: 14px;
+}	
+
+.title{
+    font-weight: bold;
+    font-size: 74px;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+.prep-ihm{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 24px;
+	color: #000000;
+}
+.pb-0px li{padding-bottom:0px !important;}
+
+@media (max-width: 1023px) {
+	  .copyright {  
+		font-size: 14px;
+	  }
+	  .dotimg {
+		position: absolute;
+		right: 0px;
+		bottom: 36px;
+		z-index: -1;
+	   }
+}
+
+@media (max-width: 991px) {
+
+	.bg-ship {
+   
+    background-size: 50%;
+     }
+}
+
+@media (max-width:768px) {
+
+}
+@media (max-width: 601px) {
+.vision-text{
+font-size: 60px;	
+}	
+.pl-5, .px-5 {
+    padding-left: 15px !important;
+}
+.pl-4, .px-4 {
+    padding-left: 15px !important;
+}
+	.title {
+    font-size:25px;
+   
+}
+.contact-email {
+   line-height: 22px;
+   }
+
+	.bg-ship {
+    background:none;
+	
+}
+ .pt0{padding-top:0px !important;  }
+	.mt0{margin-top:0px !important;}
+ .footerhead{
+  height: auto;
+ 
+  }
+  .copyright {  
+    font-size: 13px;
+	padding-top: 13px;
+  }
+ .red-box-caption {
+    font-size: 37px;
+    line-height: 53px;
+  }
+  .red-box-content-c a {
+    font-size: 15px;
+}
+.red-vector2 {display: none;}
+.red-box-content-c {
+    font-weight: bold;
+    line-height: 32px;
+
+}
+.certificate-title {
+    font-size: 20px;
+    line-height: 27px;
+}
+.designby {text-align: center;}
+.copyright {text-align: center;}	
+}
+.designby a { color: #AFB0B1;}
+.designby a:hover { color: #FFF;}
